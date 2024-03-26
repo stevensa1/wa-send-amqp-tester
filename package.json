@@ -1,0 +1,16 @@
+{
+  "name": "send-qm-tester",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "amqp": "^0.2.7",
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "nodemon": "^3.1.0"
+  }
+}
